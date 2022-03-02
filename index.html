@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <div class="header">
+        <div class="balance">
+            <h2>Available Balance : </h2>
+            <h2 id="tot_balance">₹ 1000</h2>
+        </div>
+        <!-- HEADER BUTTONS -->
+        <div class="header_btns">
+            <button class="recharge_btn" id="recharge_btn">RECHARGE</button>
+            <button class="rules_btn" id="rules_btn">RULES</button>
+        </div>
+    </div>
+    <img class="line" src="/Svg/Line-1.svg" alt="Line">
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="period_count_head">
+            <h4>Period</h4>
+            <h4>Count Down</h4>
+        </div>
+        <div class="period_count_values">
+            <h2>20210703222</h2>
+            <h2>03 : 00</h2>
+        </div>
+        <!-- Join COLOR -->
+        <div class="join_color">
+            <button class="green" id="green">join green</button>
+            <button class="violet" id="violet">join violet</button>
+            <button class="red" id="red">join red</button>
+        </div>
+        <!-- Join  NUMBER -->
+        <div class="join_number">
+            <button class="zero" id="zero">0</button>
+            <button class="one" id="one">1</button>
+            <button class="two" id="two">2</button>
+            <button class="three" id="three">3</button>
+            <button class="four" id="four">4</button>
+            <button class="five" id="five">5</button>
+            <button class="six" id="six">6</button>
+            <button class="seven" id="seven">7</button>
+            <button class="eight" id="eight">8</button>
+            <button class="nine" id="nine">9</button>
+        </div>
+    </div>
+    <!-- Parity Records title -->
+    <div class="parity_records">
+        <div class="parity_records_title">
+            <img src="/Svg/Parity.svg" alt="Parity">
+            <h2>Parity Records</h2>
+        </div>
+        <div class="more">
+            <h2>more</h2>
+        </div>
+    </div>
+    <!-- Parity Records List starts from here -->
+    <div class="parity_records_list">
+        <div class="parity_records_head">
+            <h2>Period</h2>
+            <h2>Number</h2>
+            <h2>Result</h2>
+            <h2>Price</h2>
+        </div>
+        <!-- For color GREEN -->
+        <div class="parity_green" id="parity_green">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Green.svg" alt="Green">
+            <span id="price">34245</span>
+        </div>
+        <!-- For color RED -->
+        <div class="parity_red" id="parity_red">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Red.svg" alt="Red">
+            <span id="price">34245</span>
+        </div>
+        <!-- When VIOLET comes with RED -->
+        <div class="parity_violet" id="parity_violet">
+            <span>20210629331</span>
+            <span id="number">8</span>
+            <div class="combo" id="color_img">
+                <img src="/Svg/Violet.svg" alt="Violet">
+                <img src="/Svg/Red.svg" alt="Red">
+            </div>
+            <span id="price">65655</span>
+        </div>
+        <!-- For RED -->
+        <div class="parity_red" id="parity_red">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Red.svg" alt="Red">
+            <span id="price">34245</span>
+        </div>
+        <!-- For RED -->
+        <div class="parity_red" id="parity_red">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Red.svg" alt="Red">
+            <span id="price">34245</span>
+        </div>
+        <!-- For GREEN -->
+        <div class="parity_green" id="parity_green">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Green.svg" alt="Green">
+            <span id="price">34245</span>
+        </div>
+        <!-- When VIOLET comes with RED -->
+        <div class="parity_violet" id="parity_violet">
+            <span>20210629331</span>
+            <span id="number">8</span>
+            <div class="combo" id="color_img">
+                <img src="/Svg/Violet.svg" alt="Violet">
+                <img src="/Svg/Red.svg" alt="Red">
+            </div>
+            <span id="price">65655</span>
+        </div>
+        <!-- When VIOLET comes with GREEN -->
+        <div class="parity_violet" id="parity_violet">
+            <span>20210629331</span>
+            <span id="number">8</span>
+            <div class="combo" id="color_img">
+                <img src="/Svg/Violet.svg" alt="Violet">
+                <img src="/Svg/Green.svg" alt="Green">
+            </div>
+            <span id="price">65655</span>
+        </div>
+        <!-- For GREEN -->
+        <div class="parity_green" id="parity_green">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Green.svg" alt="Green">
+            <span id="price">34245</span>
+        </div>
+        <!-- For GREEN -->
+        <div class="parity_green" id="parity_green">
+            <span>20210629331</span>
+            <span id="number">1</span>
+            <img class="color_img" src="/Svg/Green.svg" alt="Green">
+            <span id="price">34245</span>
+        </div>
+    </div>
+    <!-- RESULT SECTION -->
+    <div class="results">
+        <!-- Time and Details -->
+        <div class="bet_time">
+            <h1>₹ 1100</h1>
+            <span class="time_details">Create Time July 3, 2021, 2:16 am</span>
+        </div>
+        <h2 class="contract_head">CONTRACT MONEY</h2>
+        <div class="details">
+            <div class="left">
+                <div class="period" id="period">
+                    <h3>Period :</h3>
+                    <span>20210704021</span>
+                </div>
+                <div class="status" id="status">
+                    <h3>Status :</h3>
+                    <span>WON</span>
+                </div>
+                <div class="open_time" id="open_time">
+                    <h3>Open Time :</h3>
+                    <span>23:07:00</span>
+                </div>
+                <div class="result" id="result">
+                    <h3>Result :</h3>
+                    <span>0, Green</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="select" id="select">
+                    <h3>Select :</h3>
+                    <span>Green</span>
+                </div>
+                <div class="pre_pay">
+                    <h3>Pre Pay :</h3>
+                    <span>45</span>
+                </div>
+                <div class="fee" id="fee">
+                    <h3>Fee :</h3>
+                    <span>05</span>
+                </div>
+                <div class="amount" id="amount">
+                    <h3>Amount :</h3>
+                    <span>90</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="end_line" src="/Svg/LIne - 2.svg" alt="Blue line">
+    <div class="results">
+        <!-- Time and Details -->
+        <div class="bet_time">
+            <h1>₹ 10</h1>
+            <span class="time_details">Create Time July 3, 2021, 2:16 am</span>
+        </div>
+        <h2 class="contract_head">CONTRACT MONEY</h2>
+        <div class="details">
+            <div class="left">
+                <div class="period" id="period">
+                    <h3>Period :</h3>
+                    <span>20210704021</span>
+                </div>
+                <div class="status" id="status_result">
+                    <h3>Status :</h3>
+                    <span>LOSS</span>
+                </div>
+                <div class="open_time" id="open_time">
+                    <h3>Open Time :</h3>
+                    <span>23:07:00</span>
+                </div>
+                <div class="result" id="result">
+                    <h3>Result :</h3>
+                    <span>0, Green</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="select" id="select">
+                    <h3>Select :</h3>
+                    <span>Green</span>
+                </div>
+                <div class="pre_pay">
+                    <h3>Pre Pay :</h3>
+                    <span>45</span>
+                </div>
+                <div class="fee" id="fee">
+                    <h3>Fee :</h3>
+                    <span>05</span>
+                </div>
+                <div class="amount" id="amount">
+                    <h3>Amount :</h3>
+                    <span>90</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="end_line" src="/Svg/LIne - 2.svg" alt="Blue line">
+    <div class="results">
+        <!-- Time and Details -->
+        <div class="bet_time">
+            <h1>₹ 60</h1>
+            <span class="time_details">Create Time July 3, 2021, 2:16 am</span>
+        </div>
+        <h2 class="contract_head">CONTRACT MONEY</h2>
+        <div class="details">
+            <div class="left">
+                <div class="period" id="period">
+                    <h3>Period :</h3>
+                    <span>20210704021</span>
+                </div>
+                <div class="status" id="status_result">
+                    <h3>Status :</h3>
+                    <span>LOSS</span>
+                </div>
+                <div class="open_time" id="open_time">
+                    <h3>Open Time :</h3>
+                    <span>23:07:00</span>
+                </div>
+                <div class="result" id="result">
+                    <h3>Result :</h3>
+                    <span>0, Green</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="select" id="select">
+                    <h3>Select :</h3>
+                    <span>Green</span>
+                </div>
+                <div class="pre_pay">
+                    <h3>Pre Pay :</h3>
+                    <span>45</span>
+                </div>
+                <div class="fee" id="fee">
+                    <h3>Fee :</h3>
+                    <span>05</span>
+                </div>
+                <div class="amount" id="amount">
+                    <h3>Amount :</h3>
+                    <span>90</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="end_line" src="/Svg/LIne - 2.svg" alt="Blue line">
+    <div class="results">
+        <!-- Time and Details -->
+        <div class="bet_time">
+            <h1>₹ 100</h1>
+            <span class="time_details">Create Time July 3, 2021, 2:16 am</span>
+        </div>
+        <h2 class="contract_head">CONTRACT MONEY</h2>
+        <div class="details">
+            <div class="left">
+                <div class="period" id="period">
+                    <h3>Period :</h3>
+                    <span>20210704021</span>
+                </div>
+                <div class="status" id="status">
+                    <h3>Status :</h3>
+                    <span>WON</span>
+                </div>
+                <div class="open_time" id="open_time">
+                    <h3>Open Time :</h3>
+                    <span>23:07:00</span>
+                </div>
+                <div class="result" id="result">
+                    <h3>Result :</h3>
+                    <span>0, Green</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="select" id="select">
+                    <h3>Select :</h3>
+                    <span>Green</span>
+                </div>
+                <div class="pre_pay">
+                    <h3>Pre Pay :</h3>
+                    <span>45</span>
+                </div>
+                <div class="fee" id="fee">
+                    <h3>Fee :</h3>
+                    <span>05</span>
+                </div>
+                <div class="amount" id="amount">
+                    <h3>Amount :</h3>
+                    <span>90</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="end_line" src="/Svg/LIne - 2.svg" alt="Blue line">
+
+    <h1 class="footer">end of list</h1>
+</body>
+
+</html>
